@@ -1,0 +1,46 @@
+{
+	"version": 1,
+	"named_parameters": true,
+	"general": {
+		"title": "App Panel",
+		"instructions": "Desc",
+		"help_text": "Help"
+	},
+	"datasets": [
+		{
+			"id": "a0f32db3-5ab7-45ae-88da-8b88e327abf6",
+			"name": "Internal_Data",
+			"description": "Desc",
+			"help_text": "Help"
+		}
+	],
+	"parameters": [
+		{
+			"id": "ECpQhxOeSj6jXDur",
+			"name": "Input",
+			"param_name": "param1",
+			"description": "Desc",
+			"help_text": "Help",
+			"type": "text",
+			"value_type": "string",
+			"default_value": "a",
+			"required": true,
+			"pattern": "a"
+		},
+		{
+			"id": "RrF9AFOOXFpH0GV7",
+			"name": "List",
+			"param_name": "param2",
+			"description": "Desc",
+			"help_text": "Help",
+			"type": "list",
+			"value_type": "integer",
+			"default_value": "2",
+			"extra_data": [
+				"1",
+				"2",
+				"3"
+			]
+		}
+	]
+}
